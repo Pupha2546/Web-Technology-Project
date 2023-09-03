@@ -1,0 +1,102 @@
+.stadium
+{
+   position: relative;
+   width: 100%;
+   height: 500px;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.stadium h2
+{
+    position: absolute;
+    font-family: 'Poppin' , sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+    background: #fff;
+    padding: 0 20px;
+}
+
+.content3 .content2 .content
+{
+    border: 2px solid var(--black);
+    border-radius: 40px;
+    overflow: auto;
+    margin: 10%;
+    padding: 100px;
+}
+
+.content3 .content2 .content h2
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: var(--black);
+    float: left;
+    padding-left: 10%;
+    padding-top: 50px;
+}
+
+.content3 .content2 .content p
+{
+    line-height: 1.5em;
+    font-size: 1.2em;
+    width: 60%;
+    color: var(--black);
+    margin-bottom: 20px;
+    float: left;
+    padding-left: 10%;
+}
+
+.content3 .content2 .content p .more
+{
+    position: relative;
+    padding: 10px 15px;
+    background: lightseagreen;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 1000;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+.content3 .content2 .content p .more:hover
+{
+    background: var(--black);
+    color: var(--white);
+}
+
+.content3 .content2 .content img
+{
+    float: left;
+    border-radius: 40px;
+}
+
+.container1
+{
+   position: relative; 
+   display: flex;
+   margin: 100px 50px;
+   justify-content: center;
+   align-items: center;
+   min-height: 100;
+   margin-bottom: 200px;
+   -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,transparent,#0004) ;
+}
+
+ion-icon
+{
+   font-size: 2.5em;
+   color: lightseagreen;
+   float: left;
+   margin-right: 10px;
+}

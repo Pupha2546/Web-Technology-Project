@@ -1,0 +1,297 @@
+hr
+{
+    margin: 0 300px;
+    margin-bottom: 30px;
+    border: none;
+    height: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to left, var(--black), #ff2d2d);
+}
+.stadium
+{
+   position: relative;
+   width: 100%;
+   height: 500px;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 100px 0;
+
+}
+
+.stadium h2
+{
+    position: absolute;
+    font-family: 'Poppin' , sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+    background: #fff;
+    padding: 0 20px;
+}
+
+.area2 .area
+{
+    margin-bottom: 150px;
+}
+
+.area2 .area .content
+{
+    border-radius: 40px;
+    overflow: auto;
+    margin:  0 10%;
+    padding: 50px 100px 10px 100px;
+}
+
+.area2 .area .content h2
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    color: var(--white);
+    float: left;
+    padding: 0 10px;
+    background-color: #ff2d2d;
+    border-radius: 5px;
+}
+
+.area2 .area .content .logo
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 80px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    color: var(--white);
+    float: left;
+    padding: 0 10px;
+    background-color: #ff2d2d;
+    border-radius: 5px;
+}
+
+.area2 .area .content p
+{
+    line-height: 1.5em;
+    font-size: 1.2em;
+    width: 50%;
+    color: var(--black);
+    margin-bottom: 20px;
+    float: left;
+    padding-left: 10%;
+}
+
+.area2 .area .content p .more
+{
+    position: relative;
+    padding: 10px 15px;
+    background: #ff2d2d;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 1000;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+.area2 .area .content p .more:hover
+{
+    background: var(--black);
+    color: var(--white);
+}
+
+.area2 .area .content img
+{
+    float: left;
+    border-radius: 40px;
+}
+
+.area2 .area .abilities
+{
+    position: relative;
+    width: 800px;
+    height: 120px;
+    background: rgba(125, 125, 125,0.5);
+    margin-left: 21%;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.area2 .area .abilities .skill
+{
+    width: 120px;
+    height: 120px;
+    background: #ff2d2d;
+    float: left;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.area2 .area .abilities .skill img
+{
+    margin: 10px;
+}
+
+.area2 .area .abilities h2
+{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 5%;
+    color: #ff2d2d;
+    padding: 0 10px;
+}
+
+.area2 .area .abilities p
+{
+    line-height: 1.2em;
+    font-size: 1em;
+    color: var(--black);
+    margin-bottom: 20px;
+    padding-left: 10%;
+}
+
+.area2 .area .contentMaps
+{
+    border-radius: 40px;
+    overflow: auto;
+    margin:  0 10%;
+    padding: 50px 100px 10px 100px;
+    justify-content: center;
+   align-items: center;
+}
+
+.area2 .area .contentMaps img
+{
+    border-radius: 40px;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.area2 .area .contentMaps h2
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    color: var(--white);
+    float: left;
+    padding: 0 10px;
+    background-color: #ff2d2d;
+    border-radius: 5px;
+}
+
+.area2 .area .contentMaps p
+{
+    line-height: 1.5em;
+    font-size: 1.2em;
+    width: 45%;
+    color: var(--black);
+    margin-bottom: 20px;
+    float: left;
+    padding-left: 10%;
+}
+
+.area2 .area .contentMaps p .more
+{
+    position: relative;
+    padding: 10px 15px;
+    background: #ff2d2d;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 1000;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+.area2 .area .contentMaps p .more:hover
+{
+    background: var(--black);
+    color: var(--white);
+}
+
+.box
+{
+   position: relative; 
+   width: 320px;
+   height: 500px;
+   margin: 0 70px;
+   border-radius: 20px;
+   background: linear-gradient(135deg,#ff2d2d 25%,
+   #000000 25%,#000000 50%,#ff2d2d 50%,#ff2d2d 75%,
+   #000000 75%,#000000 100%);
+   background-size: 40px 40px;
+   filter: grayscale(1);
+   animation: background_player 0.5s linear infinite;
+   animation-play-state: paused;
+   transition: filter 1s;
+   float: left;
+}
+
+.box:hover
+{
+    animation-play-state: running;
+    filter: grayscale(0);
+}
+
+@keyframes background_player
+{
+    0%
+    {
+        background-position: 0;
+    }
+    100%
+    {
+        background-position: 40px;
+    }
+}
+
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+   }
+
+   .container1
+{
+   position: relative; 
+   display: flex;
+   margin: 100px 50px;
+   justify-content: center;
+   align-items: center;
+   min-height: 100;
+   margin-bottom: 200px;
+   -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,transparent,#0004) ;
+}
+
+ion-icon
+{
+   font-size: 2.5em;
+   color: #ff2d2d;
+   float: left;
+   margin-right: 10px;
+}

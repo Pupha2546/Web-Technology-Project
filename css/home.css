@@ -1,0 +1,99 @@
+.content3 .content2 .content1
+{
+    border: 2px solid var(--black);
+    border-radius: 40px;
+    overflow: auto;
+    margin: 50px 10%;
+    padding: 100px;
+    clear: left;
+}
+
+.content3 .content2 .content1 h2
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: var(--black);
+    float: left;
+    padding-left: 10%;
+}
+
+.content3 .content2 .content1 .name
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: var(--black);
+    float: left;
+    padding-left: 10%;
+}
+
+.content3 .content2 .content1 p
+{
+    line-height: 1.5em;
+    font-size: 1em;
+    width: 60%;
+    color: var(--black);
+    margin-bottom: 20px;
+    float: left;
+    padding-left: 10%;
+}
+
+.content3 .content2 .content1 img
+{
+    float: left;
+    border-radius: 40px;
+    clear: left;
+}
+
+ion-icon
+{
+   font-size: 2.5em;
+   color: lightseagreen;
+   float: left;
+   margin-right: 10px;
+}
+.content3 .content2 .headContent
+{
+    margin-left: 200px;
+}
+
+.content3 .content2 .headContent .refer
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    color: var(--white);
+    float: left;
+    margin-bottom: 50px;
+    background-color: var(--black);
+    padding: 0 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+hr
+{
+    margin: 0 150px;
+    border: none;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--black);
+}
+
+.container1
+{
+   position: relative; 
+   display: flex;
+   margin: 100px 50px;
+   justify-content: center;
+   align-items: center;
+   min-height: 100;
+   margin-bottom: 200px;
+   -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,transparent,#0004) ;
+}
